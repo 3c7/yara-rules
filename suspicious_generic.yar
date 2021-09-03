@@ -1,3 +1,5 @@
+import "pe"
+
 rule suspicious_Imphash_Confluence_Exploitation_Sep2021_1 : suspicious pedll cobaltstrike {
     meta:
         author = "Nils Kuhnert"
